@@ -8,7 +8,7 @@ $taxes              = array( //List your Taxes percent here.
 
 
 //connect to MySql                      
-$mysqli = new mysqli('sulley.cah.ucf.edu', 'br419669', 'harobikes7','br419669');                        
+$mysqli = new mysqli('host', 'username', 'password','main database');                        
 if (mysqli_connect_errno()) 
 {
 	echo "Failed to connect to MySql:".mysqli_connect_error();    
